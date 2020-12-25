@@ -6,7 +6,9 @@ import SubmissionTable from "./SubmissionTable";
 
 function App() {
 
-  const { isAuthenticated, isLoading, getAccessTokenSilently} = useAuth0();
+  // Here we use the getAccessTokenSilently function to issue access tokens for
+  // the logged in user that get sent as a Bearer token to the backend for validation.
+  const {isAuthenticated, isLoading, getAccessTokenSilently} = useAuth0();
   const [submissions, setSubmissions] = useState([]);
 
 

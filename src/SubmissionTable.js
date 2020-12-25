@@ -1,7 +1,5 @@
 import React from "react";
-import { 
-    Table, Thead, Tbody, Tr, Th
-} from "@chakra-ui/react";
+import { Table, Thead, Tbody, Tr, Th } from "@chakra-ui/react";
 import Submission  from "./Submission";
 
 
