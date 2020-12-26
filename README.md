@@ -2,7 +2,7 @@
 
 [![Deploy to DO](https://mp-assets1.sfo2.digitaloceanspaces.com/deploy-to-do/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/mm/wswp-admin/tree/main)
 
-This repo is for the admin panel of [What Should We Play?](https://github.com/mm/wswp), a project I built for the [DigitalOcean App Platform Hackathon](https://dev.to/devteam/announcing-the-digitalocean-app-platform-hackathon-on-dev-2i1k). You can read over there about my motivation for starting the project and how to get started with setting up a dev environment!
+This repo is for the admin panel of [What Should We Play?](https://github.com/mm/wswp), a project I built for the [DigitalOcean App Platform Hackathon](https://dev.to/devteam/announcing-the-digitalocean-app-platform-hackathon-on-dev-2i1k). You can read over there about my motivation for starting the project and how to get started with setting up a dev environment! You can also see my [original hackathon submission post here](https://dev.to/mmascioni/what-should-we-play-a-do-hackathon-submission-36k1).
 
 Since the project was designed to be an index anyone can submit games to, I built this really quick admin panel to view and approve submissions that come in (to reduce spam). It was written in [React](https://reactjs.org) with the [Chakra UI](https://chakra-ui.com/) component library. [Auth0](https://auth0.com/) is used to authenticate and send tokens to the back-end when making requests at private endpoints. 
 
