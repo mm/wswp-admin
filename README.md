@@ -40,3 +40,5 @@ No matter where this application is deployed, these environment variables can af
 This panel can be easily deployed as a static site on DigitalOcean App Platform! First, make sure you've gone through the [back-end instructions for deploying to DigitalOcean](https://github.com/mm/wswp#-deploying-to-digitalocean). This involves pressing the "Deploy to DigitalOcean" button there and initializing the database with a few commands.
 
 After that's done, you can use the Deploy to DigitalOcean button at the top of this repo to deploy it as a static site! You'll be asked to provide a value for the `REACT_APP_API_URL` environment variable. This is the app URL for your back-end app (which is separate from this one) + `/v1`, e.g `https://app-slug-example.ondigitalocean.app/api/v1`. 
+
+Heads up that once deployed, get the app URL for the admin page and add this to your list of allowed callback URLs in Auth0!
