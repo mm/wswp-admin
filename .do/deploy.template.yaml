@@ -1,0 +1,20 @@
+spec:
+  name: wswp-admin
+  static_sites:
+    - name: admin
+      environment_slug: node-js
+      git:
+        branch: main
+        repo_clone_url: https://github.com/mm/wswp-admin.git
+      envs:
+        - key: REACT_APP_API_URL
+          scope: BUILD_TIME
+        - key: REACT_APP_AUTH_CLIENT_ID
+          scope: BUILD_TIME
+        - key: REACT_APP_AUTH_DOMAIN
+          scope: BUILD_TIME
+        - key: REACT_APP_AUTH0_AUDIENCE
+          scope: BUILD_TIME
+      routes:
+        - path: /
+      build_command: yarn build
